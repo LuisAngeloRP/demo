@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hola Mundo Bonito</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background: linear-gradient(135deg, #f3e6ff, #d4ecff);
+            font-family: 'Arial', sans-serif;
+        }
+        .container {
+            text-align: center;
+            background: rgba(255, 255, 255, 0.8);
+            padding: 50px;
+            border-radius: 15px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            font-size: 3em;
+            margin: 0;
+            color: #4a47a3;
+            animation: fadeIn 2s ease-in-out;
+        }
+        p {
+            font-size: 1.2em;
+            color: #555;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>¡Hola Mundo!</h1>
+        <p>Bienvenido a un mundo de posibilidades con un toque de estilo.</p>
+    </div>
+</body>
+</html>
